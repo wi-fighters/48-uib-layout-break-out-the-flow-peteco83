@@ -9,9 +9,7 @@ html, body {
     height: 200px;
     background-color: orange;
     text-align: center;
-
     /* 0 auto would conflict with re-positioning */
-
     margin: auto auto;
     position: relative;
     left: -5px;
@@ -24,17 +22,17 @@ html, body {
     position: absolute;
 }
 
-.box2 {
+.box1 {
     background-color: red;
     bottom: 0px;
 }
 
-.box3 {
+.box2 {
     background-color: rgb(0, 255, 85);
     bottom: 10px;
     left: 10px;
 }
-.box4 {
+.box3 {
     background-color: rgb(0, 183, 255);
     bottom: 20px;
     left: 20px;
