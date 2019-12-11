@@ -12,6 +12,7 @@ html, body {
     position: relative;
     right: 5px;
     top: 7px;
+    text-align: center;
 }    
 
 .box1 {
